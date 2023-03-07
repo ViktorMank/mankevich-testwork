@@ -1,0 +1,51 @@
+/*----------Reset styles----------*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Work+Sans:wght@200;300;400;500&display=swap');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html,
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+	max-width: 695px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+button {
+	cursor: pointer;
+}
+/*--------------------------------*/

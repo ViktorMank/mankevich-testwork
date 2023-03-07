@@ -1,0 +1,64 @@
+/*because we don't need effects on mobile devices*/
+@media (min-width: 540px) {
+	.signup__form-description a:hover {
+		border-bottom: 1.5px solid var(--element-color);
+	}
+
+	.signup__form-button:hover {
+		background-color: #878DFF;
+	}
+}
+/*----------------------------------------------------*/
+
+/*---------------add responsive design----------------*/
+@media (max-width: 540px) {
+	.signup__inner {
+		flex-wrap: wrap;
+	}
+
+	.signup__sidebar {
+		flex: 0 1 100%;
+	}
+
+	.signup__sidebar-text {
+		writing-mode:horizontal-tb;
+		transform: rotate(0deg);
+		right: auto;
+		margin-left: 10px;
+	}
+
+	.signup__content {
+		flex: 0 1 100%;
+	}
+
+	.signup__form-wrapper {
+		flex-wrap: wrap;
+	}
+
+	.signup__form-left {
+		flex: 0 1 100%;
+	}
+	
+	.signup__form-right {
+		flex: 0 1 100%;
+	}
+	
+	.signup__form-footer {
+		margin-top: 50px;
+	}
+
+	.signup__content {
+		padding: 15px;
+	}
+
+	.signup__form-footer {
+		flex-direction: column-reverse;
+	}
+
+	.signup__form-button {
+		margin-bottom: 15px;
+		width: 100%;
+		padding: 15px;
+	}
+}
+/*-------------------------------------------------*/

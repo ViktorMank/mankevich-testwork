@@ -1,0 +1,138 @@
+.signup__inner {
+	display: flex;
+	color: var(--font-color-black);
+	margin-top: 20px;
+	box-shadow: 1px 0px 40px 14px rgba(0, 0, 0, 0.23);
+}
+
+.signup__sidebar {
+	flex: 0 0 137px;
+	color: var(--font-color-white);
+	background-color: var(--element-color);
+	min-height: 90px;
+	position: relative;
+}
+
+.signup__sidebar-text {
+	position: absolute;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 49px;
+	font-weight: 400;
+	line-height: 63px;
+	letter-spacing: 0.5px;
+	writing-mode: vertical-lr;
+	transform: rotate(-180deg);
+	bottom: 22px;
+	right: 5px;
+}
+
+.signup__content {
+	flex: 0 1 100%;
+	padding: 38px 22px 33px 21px;
+}
+
+.signup__content-text {
+	margin-bottom: 20px;
+}
+
+.content__text-title {
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: -0.46px;
+	font-weight: 500;
+}
+
+.content__text-subtitle {
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: -0.36px;
+}
+
+.signup__form-wrapper {
+	display: flex;
+	margin-top: -23px;
+}
+
+.signup__form-left {
+	flex: 0 1 50%;
+	margin-right: 13px;
+}
+
+.signup__form-right {
+	flex: 0 1 50%;
+}
+
+.form__label {
+	display: block;
+	font-size: 12px;
+	line-height: 14px;
+	color: var(--font-color-grey);
+	margin-top: 22px;
+	margin-bottom: 4px;
+}
+
+.signup__form select option {
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.signup__form-dateOfBirth {
+	display: flex;
+}
+
+.signup__form select {
+	width: 100%;
+	letter-spacing: 0.54px;
+}
+
+.signup__form-gender {
+	display: inline-flex;
+}
+
+.signup__form-gender label {
+	margin: 0 19px 0 6px;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.signup__form input {
+	width: 100%;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.64px;
+}
+
+.signup__form input:focus {
+	outline: none;
+}
+
+.signup__form-button {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--font-color-white);
+	padding: 7px 25px;
+	border: 0.5px solid var(--font-color-white);
+	background-color: var(--element-color);
+	transition: all .2s;
+}
+
+.signup__form-description {
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.signup__form-description a {
+	margin-left: 5px;
+	color: var(--element-color);
+}
+
+.signup__form-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 101px;
+}
+
+
